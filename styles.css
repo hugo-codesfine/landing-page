@@ -63,7 +63,6 @@ a {
     border-radius: 14%;
 }
 
-
 .img-hero {
     border: 2px solid red;
     display: flex;
@@ -73,4 +72,34 @@ a {
 img {
     max-height: 100%;
     max-width: 100%;
+}
+
+.section-one {
+    padding: 30px 160px 70px 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900px;
+}
+
+.random-container {
+    display: flex;
+    border: 2px dotted red;
+    /* justify-content: space-between; */
+}
+
+.objects {
+    border:2px greenyellow;
+}
+
+.squares {
+    border: 2px solid blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
 }
