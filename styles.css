@@ -1,0 +1,28 @@
+body {
+    /* font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif; */
+    
+}
+
+nav {
+    background-color:#1F2937;
+    padding: 0px 160px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-right-links {
+    display: flex;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+    color:#F9FAF8;
+}
