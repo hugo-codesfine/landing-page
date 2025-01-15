@@ -74,7 +74,7 @@ img {
     max-width: 100%;
 }
 
-.section-one {
+.info-section {
     padding: 30px 160px 70px 160px;
     display: flex;
     flex-direction: column;
@@ -91,10 +91,15 @@ img {
     display: flex;
     border: 2px dotted red;
     /* justify-content: space-between; */
+    gap: 30px;
 }
 
 .objects {
-    border:2px greenyellow;
+    border:2px solid greenyellow;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
 }
 
 .squares {
@@ -102,4 +107,28 @@ img {
     height: 150px;
     width: 150px;
     border-radius: 10%;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 30px 160px 70px 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border: 2px solid rgb(0, 255, 72);
+    
+}
+
+.the-quote {
+    border: 2px solid blue;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 200px;
+}
+
+.author {
+    border: 2px solid blue;
+    font-weight: bolder;
+    font-size: 18px;
 }
