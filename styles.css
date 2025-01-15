@@ -1,12 +1,23 @@
 body {
-    /* font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif; */
+    font-family:'Roboto', 'Courier New', Courier, monospace;
     
-}
 
-nav {
+/* nav {
     background-color:#1F2937;
     padding: 10px 160px;
-    color: #F9FAF8;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+ /* If it was nav, didnt work and the class selector for right-links
+ wont do any effect. When I added a class .navigator and call it, then
+ it worked. Check why 🤷 */
+
+.navigator {
+    background-color:#1F2937;
+    padding: 10px 160px;
+    color: #E5E7EB;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,8 +28,12 @@ nav {
     font-weight: bold;
 }
 
-.nav-right-links {
+.right-links {
+    /* border: 2px dotted greenyellow; */
+    font-size: 15px;
+    font-weight: lighter;
     display: flex;
+    flex-direction: row;
     gap: 25px;
 }
 
@@ -56,11 +71,17 @@ a {
     font-size: 18px;
 }
 
-.sign-up {
+button {
     background-color: #3882F6;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+}
+
+.sign-up {
     color: #F9FAF8;
     padding: 4px 18px;
-    border-radius: 14%;
+    border: 1px solid #3882F6;
 }
 
 .img-hero {
@@ -106,7 +127,7 @@ img {
     border: 2px solid blue;
     height: 150px;
     width: 150px;
-    border-radius: 10%;
+    border-radius: 9px;
 }
 
 .quote-section {
@@ -141,7 +162,7 @@ img {
     padding: 15px 80px;
     background-color: #3882F6;
     border: 1px solid #3882F6;
-    border-radius: 5%;
+    border-radius: 10px;
     display: flex;
     justify-content:space-between;
 }
@@ -156,7 +177,6 @@ img {
 }
 
 .cta-sign {
-    background-color: #3882F6;
     border: 1px solid white;
     color: #F9FAF8;
 }
@@ -164,7 +184,7 @@ img {
 .footer {
     background-color:#1F2937;
     color: #F9FAF8;
-    padding: 25px 160px;
+    padding: 15px 160px;
     display: flex;
     justify-content: center;
     align-items: center;
