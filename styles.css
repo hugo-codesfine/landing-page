@@ -1,6 +1,9 @@
 body {
     font-family:'Roboto', 'Courier New', Courier, monospace;
-    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
 
 /* nav {
     background-color:#1F2937;
@@ -21,6 +24,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* position: sticky 'top'; */
 }
 
 .nav-logo {
@@ -58,7 +62,8 @@ a {
     display: flex;
     flex-direction: column;
     flex: 1;
-    justify-content: space-between;
+    /* Maybe I dont need thejustify content... */
+    /* justify-content: space-between; */
     align-items: baseline;
 }
 
@@ -142,12 +147,12 @@ img {
     padding: 30px 160px 70px 160px;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
     border: 2px solid rgb(0, 255, 72);
     
 }
 
-.the-quote {
+.the-testimony {
     border: 2px solid blue;
     font-size: 36px;
     font-style: italic;
@@ -163,7 +168,7 @@ img {
 }
 
 .cta-section {
-    padding: 30px 160px 70px 160px;
+    padding: 70px 160px 70px 160px;
 }
 
 .banner {
@@ -197,4 +202,5 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* position: absolute 'bottom'; */
 }
